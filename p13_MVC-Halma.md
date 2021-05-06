@@ -42,25 +42,27 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 El 
 [modelo-vista-controlador](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 (MVC) es un patrón de diseño arquitectónico habitualmente utilizado para el desarrollo de interfaces de usuario 
-que divide la lógica de la aplicación en tres elementos interconectados. 
-Esto se hace para separar las representaciones internas de la información de las formas en que se presenta y se acepta la información del usuario.
+que divide la lógica de la aplicación en tres elementos relacionados. 
+Esta división se realiza para separar la representación interna de la información (modelo) 
+de las formas en que se presenta (vista) y se acepta la información del usuario (contolador).
 Este patrón se ha utilizado tradicionalmente para interfaces gráficas de usuario (GUIs) de escritorio, 
 y se ha popularizado asimismo para el diseño de aplicaciones web.
 
-Es fácil encontrar en la web información sobre este patrón de diseño, así como ejemplos de implementación del
+Es fácil encontrar en la web información sobre el patrón MVC, así como ejemplos de implementación del
 mismo en diferentes lenguajes.
 Los siguientes son elementos que puede utilizar para iniciarse en el estudio del patrón MVC:
 * [Estas transparencias](https://campusingenieriaytecnologia.ull.es/pluginfile.php/362286/mod_resource/content/1/FAlmeida-Transparencias-MVC2020.pdf)
 del profesor F. Almeida pueden ser un buen punto de toma de contacto con MVC.
-* En [Esta otra página](https://www.roseindia.net/tutorial/java/jdbc/javamvcdesignpattern.html)
+* En [esta otra página](https://www.roseindia.net/tutorial/java/jdbc/javamvcdesignpattern.html)
 puede hallar otra explicación detallada del modelo con una imagen que muestra el papel y las relaciones entre
-los componentes del modelo.
+los componentes del mismo.
 * El directorio `MVC-ejemplo-java` de este proyecto contiene una aplicación java para un conversor de monedas
 que sigue el patrón MVC.
 * Por último, en el artículo
 [Build a Simple MVC App From Scratch in JavaScript](https://www.taniarascia.com/javascript-mvc-todo-app/)
 se explica con detalle la implementación de una aplicación (lista de tareas) siguiendo el patrón MVC y
 utilizando clases ES6 de JavaScript.
+El código de la aplicación está disponible a través de los enlaces del artículo.
 
 ### El juego Halma
 Halma es un antiguo juego de mesa del cual existen muchas variantes.
