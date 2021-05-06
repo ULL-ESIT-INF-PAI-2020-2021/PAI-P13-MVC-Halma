@@ -60,9 +60,8 @@ los componentes del mismo.
 que sigue el patrón MVC.
 * Por último, en el artículo
 [Build a Simple MVC App From Scratch in JavaScript](https://www.taniarascia.com/javascript-mvc-todo-app/)
-se explica con detalle la implementación de una aplicación (lista de tareas) siguiendo el patrón MVC y
-utilizando clases ES6 de JavaScript.
-El código de la aplicación está disponible a través de los enlaces del artículo.
+se explica con detalle la implementación de una aplicación (lista de tareas) siguiendo el patrón MVC.
+El código de la aplicación utilizando clases ES6 de JS está disponible a través de los enlaces del artículo.
 
 ### El juego Halma
 Halma es un antiguo juego de mesa del cual existen muchas variantes.
@@ -70,11 +69,14 @@ La aplicación que se propone crear es una versión para jugar en solitario con 
 Al comienzo del juego, las piezas se sitúan formando un cuadrado de 3x3 en la esquina inferior izquierda del tablero. 
 El objetivo del juego es mover todas las piezas para que formen un cuadrado de 3x3 en la esquina superior derecha 
 del tablero, en el menor número de movimientos.
+
 En 
 [esta página](https://diveinto.html5doctor.com/canvas.html#halma)
 puede consultar las reglas del juego y dispone asimismo de 
 [otra página](https://diveinto.html5doctor.com/examples/canvas-halma.html)
 en la que puede jugar interactivamente.
+El código fuente de la aplicación está
+[también disponible](https://diveinto.html5doctor.com/examples/halma.js).
 
 En esta práctica se propone desarrollar una aplicación web `halma.js` que implemente el patrón MVC.
 La aplicación se diseñará utilizando clases ES6 que modelen el juego e implementen el patrón MVC.
