@@ -112,10 +112,10 @@ cubrimiento de código de su proyecto.
 
 ### Presentación de resultados de todas sus prácticas
 Esta es la última práctica de la asignatura en el presente curso.
-A efectos de tener todas sus prácticas centralizadas en un único repositorio, organice todas las prácticas que
-ha realizado en la asignatura en un único proyecto que las incluya todas.
+Al efecto de tener todas sus prácticas centralizadas en un único repositorio, organice todas las prácticas que
+ha realizado en la asignatura (las haya evaluado o no) en un único proyecto que las incluya todas.
 Organice convenientemente el código y recursos de cada práctica en directorios diferenciados dentro del
 proyecto.
 Consiga que todas aquellas prácticas que hayan consistido en el desarrollo de una aplicación web sean
-accesibles a través de una web `prácticas-PAI-2020-2021.html` accesible desde una URL en su máquina IaaS de la
+accesibles a través de una web `prácticas-PAI-2020-2021.html` accesible desde una URL pública en su máquina IaaS de la
 asignatura.
