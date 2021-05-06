@@ -1,9 +1,10 @@
-# Práctica 12. Programación Gráfica Orientada a Eventos. Poker,
-### Factor de ponderación: 9
+# Práctica 13. Modelo Vista Controlador. Halma
+### Factor de ponderación: 10
 
 ### Objetivos
 Los objetivos de esta práctica son:
 
+* Practicar el diseño de una aplicación de acuerdo al patrón MVC.
 * Poner en práctica metodologías y conceptos de Programación Orientada a Objetos.
 * Poner en práctica conceptos de Programación Orientada a Eventos en JavaScript.
 * Poner en práctica conceptos de Programación Gráfica en JavaScript usando la API Canvas.
@@ -36,26 +37,31 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Todo el código estará ubicado en el directorio `src` del proyecto. Use subdirectorios de éste si le resulta
   conveniente.
 
-### El juego del Poker
-En esta práctica se desarrollará una aplicación JavaScript para representar 
-[cartas de la baraja francesa](https://en.wikipedia.org/wiki/Standard_52-card_deck), mazos de cartas, manos y jugadas del Póquer.
-Consulte
-[Wikipedia](http://en.wikipedia.org/wiki/Poker), 
-para un conocimiento básico de este juego, en caso de que no lo conozca.
-Este documento explica todo lo que se precisa para la aplicación que ha de realizar.
+### El patrón Modelo Vista Controlador
+El 
+[modelo-vista-controlador](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+(MVC) es un patrón de diseño arquitectónico habitualmente utilizado para el desarrollo de interfaces de usuario 
+que divide la lógica de la aplicación en tres elementos interconectados. 
+Esto se hace para separar las representaciones internas de la información de las formas en que se presenta y se acepta la información del usuario.
+Este patrón se ha utilizado tradicionalmente para interfaces gráficas de usuario (GUIs) de escritorio, 
+y se ha popularizado asimismo para el diseño de aplicaciones web.
 
-A pesar de que este documento está escrito en español, se propone que los identificadores 
-que se usen en el código JavaScript utilicen la terminología en inglés para el entorno a 
-modelar en los programas: cartas (cards), mazo de cartas (deck), etc.
+Es fácil encontrar en la web información sobre este patrón de diseño, así como ejemplos de implementación del
+mismo en diferentes lenguajes.
 
-Antes de comenzar a desarrollar su programa dedique el tiempo necesario a diseñar la estructura de clases que
-utilizará en su programa, así como las relaciones existentes entre las mismas.
-Una aplicación para la realización de diagramas UML puede resultarle útil para esta finalidad, aunque también
-puede usar simplemente papel y bolígrafo.
-Realice, como siempre, un diseño incremental del programa comprobando cada una de las funcionalidades que añade, siguiendo un
-desarrollo TDD.
+### El juego Halma
+Halma es un antiguo juego de mesa del cual existen muchas variantes.
+La aplicación que se propone crear es una versión para jugar en solitario con 9 piezas en un tablero de 9x9. 
+Al comienzo del juego, las piezas se sitúan formando un cuadrado de 3x3 en la esquina inferior izquierda del tablero. 
+El objetivo del juego es mover todas las piezas para que formen un cuadrado de 3x3 en la esquina superior derecha 
+del tablero, en el menor número de movimientos.
+En 
+[esta página](https://diveinto.html5doctor.com/canvas.html#halma)
+puede consultar las reglas del juego y dispone asimismo de 
+[otra página](https://diveinto.html5doctor.com/examples/canvas-halma.html)
+en la que puede jugar interactivamente.
 
-Todas las clases que se propone desarrollar han de encapsularse en módulos ES6.
+
 
 ### La clase *Card*
 Se propone desarrollar en el módulo `card.js` una clase `Card` que permita representar cartas de la barja francesa.
