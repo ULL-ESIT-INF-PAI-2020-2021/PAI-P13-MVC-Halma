@@ -78,7 +78,7 @@ en la que puede jugar interactivamente.
 El código fuente de la aplicación está
 [también disponible](https://diveinto.html5doctor.com/examples/halma.js).
 
-En esta práctica se propone desarrollar una aplicación web `halma.js` que implemente el patrón MVC.
+En esta práctica se propone desarrollar una aplicación web `halma.js`.
 La aplicación se diseñará utilizando clases ES6 que modelen el juego e implementen el patrón MVC.
 Antes de proceder al desarrollo, tómese el tiempo necesario para identificar objetos, clases, métodos y
 relaciones entre estas entidades.
@@ -92,7 +92,7 @@ Del mismo modo que en la
 [página de referencia de Halma](https://diveinto.html5doctor.com/examples/canvas-halma.html)
 su página debiera mostrar en todo momento el número de movimientos que se han realizado.
 
-### Presentación de resultados
+### Presentación de resultados 
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
 
@@ -109,3 +109,13 @@ que sirva de "página índice" para los ejercicios de la sesión de evaluación 
 La página [1] será uno de los enlaces de [2] y a su vez [1] tendrá un enlace "Home" que apunte a [2].
 Enlace también en la página índice [2] las páginas que contienen los informes de documentación y de
 cubrimiento de código de su proyecto.
+
+### Presentación de resultados de todas sus prácticas
+Esta es la última práctica de la asignatura en el presente curso.
+A efectos de tener todas sus prácticas centralizadas en un único repositorio, organice todas las prácticas que
+ha realizado en la asignatura en un único proyecto que las incluya todas.
+Organice convenientemente el código y recursos de cada práctica en directorios diferenciados dentro del
+proyecto.
+Consiga que todas aquellas prácticas que hayan consistido en el desarrollo de una aplicación web sean
+accesibles a través de una web `prácticas-PAI-2020-2021.html` accesible desde una URL en su máquina IaaS de la
+asignatura.
